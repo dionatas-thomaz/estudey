@@ -1,12 +1,17 @@
-# estudey
-<!-- printf(): -->
+
+ # printf(): 
 
 Função usada para imprimir texto na saída padrão (normalmente o console).
-Exemplo:*/
-'''c
+
+Exemplo:
+
+
+```html
+
 #include <stdio.h>
 int main() {
     printf("Olá, mundo!\n");
     return 0;
 }
-'''c
+
+```
