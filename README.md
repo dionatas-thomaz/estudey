@@ -1,3 +1,2 @@
 
-
-   ![o melhor](https://github.com/dionatas-thomaz/estudey/assets/143839442/2291ffca-7ea4-455c-80a2-14f11348bce4)
+![studying-windy](https://github.com/dionatas-thomaz/estudey/assets/143839442/7da9bb8e-185a-48be-99cd-afa2ce0a7850)
