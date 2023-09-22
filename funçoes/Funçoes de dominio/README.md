@@ -1,0 +1,36 @@
+### As linguagens de programação C e C++ são conhecidas por seu poder e eficiência, sendo amplamente utilizadas em uma variedade de domínios, desde sistemas operacionais até desenvolvimento de jogos. Vamos discutir os tipos de dados mais comuns em C e C++: int, float, char, e alguns outros tipos relacionados.
+
+<br> 
+
+`int`: O tipo int é usado para representar números inteiros. Em sistemas típicos, ele geralmente ocupa 4 bytes de memória. A faixa de valores que um int pode armazenar depende do sistema, mas é geralmente de -2.147.483.648 a 2.147.483.647.
+
+## Exemplo
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numero = 42;
+    printf("Valor inteiro: %d\n", numero);
+    return 0;
+}
+```
+
+<br>
+
+`float`: O tipo float é usado para representar números de ponto flutuante de precisão simples. Ele geralmente ocupa 4 bytes e pode armazenar números decimais, mas a precisão é limitada. Normalmente, é usado para representar números com casas decimais.
+
+## Exemplo
+
+```c
+#include <stdio.h>
+
+int main() {
+    float numero = 3.14;
+    printf("Valor de ponto flutuante: %f\n", numero);
+    return 0;
+}
+```
+
+<br>
+

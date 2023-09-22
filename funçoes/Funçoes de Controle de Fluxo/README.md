@@ -2,6 +2,7 @@
 <BR>
 Essas estruturas de controle condicional são usadas para tomar decisões com base em uma condição. O programa verifica se uma condição é verdadeira (if) ou falsa (else) e executa blocos de código diferentes com base nessa avaliação.
 
+
 <BR>
 
 ```C
