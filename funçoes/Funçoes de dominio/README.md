@@ -2,7 +2,7 @@
 
 <br> 
 
-`int`: O tipo int é usado para representar números inteiros. Em sistemas típicos, ele geralmente ocupa 4 bytes de memória. A faixa de valores que um int pode armazenar depende do sistema, mas é geralmente de -2.147.483.648 a 2.147.483.647.
+`int`:  O tipo int é usado para representar números inteiros. Em sistemas típicos, ele geralmente ocupa 4 bytes de memória. A faixa de valores que um int pode armazenar depende do sistema, mas é geralmente de -2.147.483.648 a 2.147.483.647.
 
 ## Exemplo
 
@@ -33,4 +33,21 @@ int main() {
 ```
 
 <br>
+
+`char` : O tipo charé usado para armazenar caracteres. Em C, ele ocupa 1 byte de memória e pode armazenar um único caractere. Em C++, um charpode ser usado como um tipo numérico e também pode representar valores inteiros e pequenos, mas ainda é usado principalmente para caracteres.
+
+## Exemplo
+
+```c
+#include <stdio.h>
+
+int main() {
+    char letra = 'A';
+    printf("Caractere: %c\n", letra);
+    return 0;
+}
+```
+
+<br>
+
 
