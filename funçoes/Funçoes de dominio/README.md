@@ -34,7 +34,7 @@ int main() {
 
 <br>
 
-`char` : O tipo charé usado para armazenar caracteres. Em C, ele ocupa 1 byte de memória e pode armazenar um único caractere. Em C++, um charpode ser usado como um tipo numérico e também pode representar valores inteiros e pequenos, mas ainda é usado principalmente para caracteres.
+`char` : O tipo char é usado para armazenar caracteres. Em C, ele ocupa 1 byte de memória e pode armazenar um único caractere. Em C++, um charpode ser usado como um tipo numérico e também pode representar valores inteiros e pequenos, mas ainda é usado principalmente para caracteres.
 
 ## Exemplo
 
