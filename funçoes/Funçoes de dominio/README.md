@@ -64,3 +64,20 @@ int main() {
 }
 ```
 
+ <br> 
+
+`short`: O tipo short, ou short int, é usado para representar números inteiros curtos. Ele ocupa geralmente 2 bytes de memória e tem uma faixa de valores menor em comparação com int
+
+```c
+#include <stdio.h>
+
+int main() {
+    short numero = 1000;
+    printf("Valor inteiro curto: %d\n", numero);
+    return 0;
+}
+
+```
+
+<br>
+
