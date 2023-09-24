@@ -50,4 +50,17 @@ int main() {
 
 <br>
 
+`double`: O tipo double é usado para representar números de ponto flutuante de precisão dupla. Ele geralmente ocupa 8 bytes de memória e oferece maior precisão do que o float. É usado quando uma precisão extra é necessária.
+
+## Exemplo 
+
+```c
+#include <stdio.h>
+
+int main() {
+    double numero = 3.14159265359;
+    printf("Valor de ponto flutuante de precisão dupla: %lf\n", numero);
+    return 0;
+}
+```
 
