@@ -81,3 +81,17 @@ int main() {
 
 <br>
 
+`long`: O tipo long, ou long int, é usado para representar números inteiros longos. Ele geralmente ocupa 4 bytes em sistemas de 32 bits e 8 bytes em sistemas de 64 bits. É usado quando a faixa de valores de int não é suficiente.
+
+```c
+#include <stdio.h>
+
+int main() {
+    long numero = 1234567890L;
+    printf("Valor inteiro longo: %ld\n", numero);
+    return 0;
+}
+```
+
+<br>
+
