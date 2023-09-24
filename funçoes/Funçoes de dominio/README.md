@@ -95,3 +95,16 @@ int main() {
 
 <br>
 
+`unsigned`: Colocar a palavra-chave unsigned antes de qualquer tipo de dados (por exemplo, unsigned int) indica que o tipo não deve representar valores negativos. Isso estende a faixa de valores positivos que podem ser armazenados.
+
+```c
+#include <stdio.h>
+
+int main() {
+    unsigned int positivo = 4294967295U;
+    printf("Valor inteiro não assinado: %u\n", positivo);
+    return 0;
+}
+```
+
+<br>
