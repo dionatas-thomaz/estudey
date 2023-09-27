@@ -108,3 +108,17 @@ int main() {
 ```
 
 <br>
+
+`_Bool`: É um tipo de dados booleano que representa valores true (verdadeiro) ou false (falso). Em C99 e posteriores, você pode usar _Bool para representar valores booleanos.
+
+```c
+#include <stdio.h>
+
+int main() {
+    _Bool verdadeiro = 1;
+    _Bool falso = 0;
+    printf("Verdadeiro: %d, Falso: %d\n", verdadeiro, falso);
+    return 0;
+}
+```
+<br>
