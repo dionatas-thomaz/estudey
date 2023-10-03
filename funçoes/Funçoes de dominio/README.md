@@ -148,5 +148,7 @@ int main() {
     printf("Tamanho de int em bytes: %zu\n", tamanho);
     return 0;
 }
+```
 
-```c
+<br>
+
