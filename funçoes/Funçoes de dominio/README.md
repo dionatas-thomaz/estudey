@@ -122,3 +122,31 @@ int main() {
 }
 ```
 <br>
+
+`wchar_t`: Este tipo é usado para representar caracteres de largura ampla (wide characters), que podem ser necessários para suportar vários idiomas e caracteres especiais.
+
+```c
+#include <stdio.h>
+#include <wchar.h>
+
+int main() {
+    wchar_t caractere = L'Ç';
+    wprintf(L"Caractere de largura ampla: %lc\n", caractere);
+    return 0;
+}
+```c
+<br>
+
+`size_t`: Este tipo é usado para representar o tamanho de objetos em memória. É usado com funções de alocação de memória e para índices de matriz.
+
+```c
+#include <stdio.h>
+#include <stddef.h>
+
+int main() {
+    size_t tamanho = sizeof(int);
+    printf("Tamanho de int em bytes: %zu\n", tamanho);
+    return 0;
+}
+
+```c
