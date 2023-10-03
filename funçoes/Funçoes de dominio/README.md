@@ -133,7 +133,7 @@ int main() {
     wprintf(L"Caractere de largura ampla: %lc\n", caractere);
     return 0;
 }
-```c
+```
 <br>
 
 `size_t`: Este tipo é usado para representar o tamanho de objetos em memória. É usado com funções de alocação de memória e para índices de matriz.
@@ -165,10 +165,12 @@ int main() {
     return 0;
 }
 ```
+
 <br>
 
 
 Estes são exemplos simples que demonstram o uso de cada tipo de dado em C. Note que os formatos de impressão (por exemplo, `%d`, `%f`) variam dependendo do tipo de dado que você está imprimindo.
+
 ```
 Além desses tipos básicos, em C e C++, você pode criar estruturas (structs) e tipos definidos pelo usuário (typedef) para criar tipos de dados personalizados que combinem vários tipos de dados. Isso permite que os programadores organizem os dados de maneira mais significativa para seus aplicativos.
-
+```
