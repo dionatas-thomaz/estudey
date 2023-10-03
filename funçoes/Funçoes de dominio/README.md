@@ -171,6 +171,6 @@ int main() {
 
 Estes são exemplos simples que demonstram o uso de cada tipo de dado em C. Note que os formatos de impressão (por exemplo, `%d`, `%f`) variam dependendo do tipo de dado que você está imprimindo.
 
-```
+
 Além desses tipos básicos, em C e C++, você pode criar estruturas (structs) e tipos definidos pelo usuário (typedef) para criar tipos de dados personalizados que combinem vários tipos de dados. Isso permite que os programadores organizem os dados de maneira mais significativa para seus aplicativos.
-```
+
