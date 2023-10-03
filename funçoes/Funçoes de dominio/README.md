@@ -68,6 +68,8 @@ int main() {
 
 `short`: O tipo short, ou short int, é usado para representar números inteiros curtos. Ele ocupa geralmente 2 bytes de memória e tem uma faixa de valores menor em comparação com int
 
+## Exemplo 
+
 ```c
 #include <stdio.h>
 
@@ -81,6 +83,8 @@ int main() {
 <br>
 
 `long`: O tipo long, ou long int, é usado para representar números inteiros longos. Ele geralmente ocupa 4 bytes em sistemas de 32 bits e 8 bytes em sistemas de 64 bits. É usado quando a faixa de valores de int não é suficiente.
+
+## Exemplo 
 
 ```c
 #include <stdio.h>
@@ -96,6 +100,8 @@ int main() {
 
 `unsigned`: Colocar a palavra-chave unsigned antes de qualquer tipo de dados (por exemplo, unsigned int) indica que o tipo não deve representar valores negativos. Isso estende a faixa de valores positivos que podem ser armazenados.
 
+## Exemplo 
+
 ```c
 #include <stdio.h>
 
@@ -109,6 +115,8 @@ int main() {
 <br>
 
 `_Bool`: É um tipo de dados booleano que representa valores true (verdadeiro) ou false (falso). Em C99 e posteriores, você pode usar _Bool para representar valores booleanos.
+
+## Exemplo 
 
 ```c
 #include <stdio.h>
@@ -124,6 +132,8 @@ int main() {
 
 `wchar_t`: Este tipo é usado para representar caracteres de largura ampla (wide characters), que podem ser necessários para suportar vários idiomas e caracteres especiais.
 
+## Exemplo 
+
 ```c
 #include <stdio.h>
 #include <wchar.h>
@@ -137,6 +147,8 @@ int main() {
 <br>
 
 `size_t`: Este tipo é usado para representar o tamanho de objetos em memória. É usado com funções de alocação de memória e para índices de matriz.
+
+## Exemplo 
 
 ```c
 #include <stdio.h>
@@ -152,6 +164,8 @@ int main() {
 <br>
 
 `void`: O tipo void é usado para indicar a ausência de tipo. Pode ser usado para declarar funções que não retornam valor (retorno void) ou ponteiros genéricos (ponteiros para void) que podem apontar para qualquer tipo de dados.
+
+## Exemplo 
 
 ```c
 #include <stdio.h>
