@@ -34,7 +34,7 @@ int main() {
 
 <br>
 
-`char` : O tipo char é usado para armazenar caracteres. Em C, ele ocupa 1 byte de memória e pode armazenar um único caractere. Em C++, um char pode ser usado como um tipo numérico e também pode representar valores inteiros e pequenos, mas ainda é usado principalmente para caracteres.
+`char`: O tipo char é usado para armazenar caracteres. Em C, ele ocupa 1 byte de memória e pode armazenar um único caractere. Em C++, um char pode ser usado como um tipo numérico e pode representar valores inteiros e pequenos, mas ainda é usado principalmente para caracteres.
 
 ## Exemplo
 
@@ -76,7 +76,6 @@ int main() {
     printf("Valor inteiro curto: %d\n", numero);
     return 0;
 }
-
 ```
 
 <br>
@@ -151,4 +150,25 @@ int main() {
 ```
 
 <br>
+
+`void`: O tipo void é usado para indicar a ausência de tipo. Pode ser usado para declarar funções que não retornam valor (retorno void) ou ponteiros genéricos (ponteiros para void) que podem apontar para qualquer tipo de dados.
+
+```c
+#include <stdio.h>
+
+void saudacao() {
+    printf("Olá, mundo!\n");
+}
+
+int main() {
+    saudacao();
+    return 0;
+}
+```
+<br>
+
+
+Estes são exemplos simples que demonstram o uso de cada tipo de dado em C. Note que os formatos de impressão (por exemplo, `%d`, `%f`) variam dependendo do tipo de dado que você está imprimindo.
+```
+Além desses tipos básicos, em C e C++, você pode criar estruturas (structs) e tipos definidos pelo usuário (typedef) para criar tipos de dados personalizados que combinem vários tipos de dados. Isso permite que os programadores organizem os dados de maneira mais significativa para seus aplicativos.
 
