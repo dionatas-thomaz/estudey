@@ -163,7 +163,7 @@ int main() {
 
 <br>
 
-`void`: O tipo void é usado para indicar a ausência de tipo. Pode ser usado para declarar funções que não retornam valor (retorno void) ou ponteiros genéricos (ponteiros para void) que podem apontar para qualquer tipo de dados..
+`void`: O tipo void é usado para indicar a ausência de tipo. Pode ser usado para declarar funções que não retornam valor (retorno void) ou ponteiros genéricos (ponteiros para void) que podem apontar para qualquer tipo de dados.
 
 ## Exemplo 
 
