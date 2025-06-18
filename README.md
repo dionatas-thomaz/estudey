@@ -1,4 +1,4 @@
-## Estudos Direcionados a Linguagem 
+## Estudos Direcionados 
 </div>
 <div style="display: flex; ">
 <img align="center" alt="rafa-C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
